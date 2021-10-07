@@ -29,6 +29,8 @@ class AuthController extends Controller
 
             LogActivity::addToLog('User Logged in');
             return redirect('/home')->with('message', 'User Logged in Successfully');
+        }else{
+            return redirect('/')->with('message', 'Email or Password Not correct');
         }
     }
 
