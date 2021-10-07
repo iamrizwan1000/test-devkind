@@ -88,7 +88,7 @@
         }
 
         .signup-form a {
-            color: #fff;
+            color: black;
             text-decoration: underline;
         }
 
